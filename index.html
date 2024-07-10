@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Second Year Subjects Login</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Second Year Subjects</h1>
+        <div class="subject" id="subject1">
+            <h2>Photo Journalism</h2>
+            <input type="password" id="password1" placeholder="Enter password">
+            <button onclick="checkPassword('subject1', 'photojour', 'http://photojournalismmasscomm.blogspot.com')">Login</button>
+        </div>
+        <div class="subject" id="subject2">
+            <h2>Public Relations and Corporate Communication</h2>
+            <input type="password" id="password2" placeholder="Enter password">
+            <button onclick="checkPassword('subject2', 'pubrelcorcom', 'http://publicrelationsmasscomm.blogspot.com')">Login</button>
+        </div>
+        <div class="subject" id="subject3">
+            <h2>Media Management</h2>
+            <input type="password" id="password3" placeholder="Enter password">
+            <button onclick="checkPassword('subject3', 'medimana', 'http://mediamanagementmasscomm.blogspot.com')">Login</button>
+        </div>
+        <div class="subject" id="subject4">
+            <h2>Economic Development and Planning in India</h2>
+            <input type="password" id="password4" placeholder="Enter password">
+            <button onclick="checkPassword('subject4', 'ecodevplaind', 'http://economicdevelopmentmasscomm.blogspot.com')">Login</button>
+        </div>
+        <div id="message"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
